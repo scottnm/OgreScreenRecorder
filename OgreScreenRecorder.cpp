@@ -20,7 +20,7 @@ OgreScreenRecorder::~OgreScreenRecorder()
     mRoot.removeFrameListener(this);
 }
 
-bool OgreScreenRecorder::frameRenderingQueued(const Ogre::FrameEvent& evt)
+bool OgreScreenRecorder::frameEnded(const Ogre::FrameEvent& evt)
 {
     (void)evt; // UNUSED param
 

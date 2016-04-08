@@ -14,7 +14,7 @@ public:
     ~OgreScreenRecorder();
 
 private:
-    bool frameRenderingQueued(const Ogre::FrameEvent& evt);
+    bool frameEnded(const Ogre::FrameEvent& evt);
 
     Ogre::Root& mRoot;
     Ogre::RenderWindow& mWindow;
