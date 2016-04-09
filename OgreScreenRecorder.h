@@ -20,6 +20,8 @@ private:
     Ogre::RenderWindow& mWindow;
     int cnt;
     char filename_buf[25];
+    Ogre::Real timer;
+    const Ogre::Real limit;
 };
 
 #endif // __OGRE_SCREEN_RECORDER__
